@@ -1,0 +1,18 @@
+{
+  "name": "serverless-vault-bridge",
+  "private": false,
+  "version": "0.1.0",
+  "description": "Serverless Markdown vault bridge for ChatGPT Actions and MCP with two-step GitHub CAS writes.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/89325516/serverless-vault-bridge.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}

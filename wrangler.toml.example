@@ -1,0 +1,14 @@
+name = "serverless-vault-bridge"
+main = "src/worker.js"
+compatibility_date = "2026-05-11"
+
+[vars]
+GITHUB_BRANCH = "main"
+VAULT_ROOT_PREFIX = ""
+
+# Configure secrets with:
+# wrangler secret put VAULT_BRIDGE_API_KEY
+# wrangler secret put PROPOSAL_TOKEN_SECRET
+# wrangler secret put GITHUB_TOKEN
+# wrangler secret put GITHUB_OWNER
+# wrangler secret put GITHUB_REPO
